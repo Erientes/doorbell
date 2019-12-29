@@ -1,0 +1,19 @@
+{ "PIN_MAPPING" : {
+	  "BELL_BUTTON": 7,
+  	  "RED_BUTTON": 18,
+      "YELLOW_BUTTON": 15,
+  	  "GREEN_BUTTON": 14,
+      "RED_LED": 25,
+      "YELLOW_LED": 24,
+      "GREEN_LED": 23
+		},
+"MODE_MAPPING" : {
+	    "BELL_BUTTON": 6,
+  	  "RED_BUTTON": 0,
+      "YELLOW_BUTTON": 1,
+  	  "GREEN_BUTTON": 2,
+      "RED_LED": 3,
+      "YELLOW_LED": 4,
+      "GREEN_LED": 5 
+		}
+}		
