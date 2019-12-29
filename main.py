@@ -145,7 +145,7 @@ def bell_cb(obj):
         set_MODE_value(5, value=1)
     elif result == 2:
         set_MODE_value(4, value=3)
-        send_img_telegram()
+        send_img_telegram('\U000025FE')
     elif result == 3:
         set_MODE_value(4, value=1)
         send_img_telegram('\U0001F538')
@@ -157,6 +157,7 @@ def bell_cb(obj):
     # Turn of the lights and start listening again.
     set_MODE_value([3,4,5], value=0)
     set_LED_states()
+    print('')
 
 
 def set_MODE_value(idxs, value=None):
