@@ -1,6 +1,7 @@
 # Doorbell with Face Recognition
 
-See instructables
+See instructables: https://www.instructables.com/id/Doorbell-With-Face-Recognition/
 
+Updates:
+6-1-'20: Code will be cleaned up and fully commented soon.
 
-docker run --privileged -v /home/pi/ws_python/doorbell:/doorbell -it 95974004aac5 bash
